@@ -1,0 +1,20 @@
+Preferences {
+ inputs 0
+ name Preferences
+ viewer_texture_vram 1256
+ selectedGPUDeviceName "GeForce GTX 1660"
+ trialOFXPlugins true
+ platformPathRemaps ""
+ newPanelsInBin "own window"
+ maxPanels 3
+ colorPickerDefaultMode "floating color picker"
+ goofy_foot false
+ DfltBezAutokey false
+ defaultBufferDepth half-float
+ defaultGPUForViewer true
+ defaultGPUForInputs true
+ scriptEditorClearOnSuccess false
+ echoAllCommands true
+ scopesApplyViewerColorTransform false
+ scopesForceFullFrame true
+}

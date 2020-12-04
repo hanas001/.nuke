@@ -1,0 +1,42 @@
+#! C:/Program Files/Nuke11.3v4/nuke-11.3.4.dll -nx
+version 11.3 v4
+Gizmo {
+ addUserKnob {20 User}
+ addUserKnob {26 redR l "" +STARTLINE T Red}
+ addUserKnob {7 R_R l R}
+ R_R 0.78
+ addUserKnob {7 R_G l G}
+ addUserKnob {7 R_B l B}
+ addUserKnob {26 ""}
+ addUserKnob {26 redR_1 l "" +STARTLINE T Green}
+ addUserKnob {7 G_R l R}
+ addUserKnob {7 G_G l G}
+ G_G 0.74
+ addUserKnob {7 G_B l B}
+ addUserKnob {26 ""}
+ addUserKnob {26 redR_2 l "" +STARTLINE T Blue}
+ addUserKnob {7 B_R l R}
+ addUserKnob {7 B_G l G}
+ addUserKnob {7 B_B l B}
+ B_B 0.81
+ addUserKnob {26 ""}
+}
+ Input {
+  inputs 0
+  name Input1
+  xpos 0
+ }
+ Expression {
+  expr0 "R_R*r + R_G*g + R_B*b"
+  expr1 "G_R*r + G_G*g + G_B*b"
+  expr2 "B_R*r + B_G*g + B_B*b"
+  name Expression1
+  xpos 0
+  ypos 134
+ }
+ Output {
+  name Output1
+  xpos 0
+  ypos 300
+ }
+end_group
