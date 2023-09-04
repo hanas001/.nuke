@@ -8,3 +8,4 @@ nuke.pluginAddPath("disableErrors")     #if the node doesnt have some channel - 
 nuke.pluginAddPath("leo_mask")          #adds channel to maskChannelInput of any node
 nuke.pluginAddPath("masksAll")          #finds and collects all alpha channels to one
 #nuke.pluginAddPath("highestVersion")   #makes the version newes that is available
+nuke.pluginAddPath("checker")          #checker

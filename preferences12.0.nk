@@ -1,17 +1,21 @@
 Preferences {
  inputs 0
  name Preferences
- LocalizationSizeLimit 30
+ localCachePath E:/tmpNuke/localize
+ LocalizationSizeLimit 94
  viewer_texture_vram 1256
- diskCacheGB 20
+ DiskCachePath C:/_temp/nuke/
+ diskCacheGB 36
  PaintCacheGB 20
- undoLimitMB 70
- undoMin 40
- selectedGPUDeviceName "GeForce GTX 1660"
+ undoLimitMB 999
+ undoMin 999
+ selectedGPUDeviceName "NVIDIA GeForce GTX 1660"
  trialOFXPlugins true
  platformPathRemaps ""
+ ShowMenusUnderCursor false
  newPanelsInBin "own window"
  maxPanels 3
+ PanelInputButtonLogic "center node"
  colorPickerDefaultMode "floating color picker"
  goofy_foot false
  DfltBezAutokey false

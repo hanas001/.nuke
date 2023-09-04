@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layout version="1.0">
-    <window x="54" y="-8" w="1858" h="1177" maximized="1" screen="0">
+    <window x="61" y="-8" w="1858" h="1177" maximized="1" screen="0">
         <splitter orientation="1">
             <split size="0"/>
             <dock id="" hideTitles="1" activePageId="Toolbar.1">
@@ -11,18 +11,17 @@
                 <split size="1020"/>
                 <splitter orientation="1">
                     <split size="1523"/>
-                    <dock id="" activePageId="DAG.1">
+                    <dock id="" activePageId="DAG.1" focus="true">
                         <page id="DAG.1"/>
                     </dock>
                     <split size="327"/>
                     <splitter orientation="2">
                         <split size="662"/>
-                        <dock id="" activePageId="com.ohufx.SearchReplace" focus="true">
+                        <dock id="" activePageId="com.ohufx.SearchReplace">
                             <page id="com.ohufx.SearchReplace"/>
                         </dock>
                         <split size="354"/>
-                        <dock id="" activePageId="Properties.1">
-                            <page id="Properties.1"/>
+                        <dock id="" activePageId="uk.co.thefoundry.waveformscope.1">
                             <page id="uk.co.thefoundry.waveformscope.1"/>
                             <page id="Progress.1"/>
                         </dock>
@@ -37,9 +36,9 @@
             </splitter>
         </splitter>
     </window>
-    <window x="1912" y="0" w="1920" h="1161" screen="1">
+    <window x="1920" y="0" w="1918" h="1168" maximized="1" screen="2">
         <splitter orientation="2">
-            <split size="1161"/>
+            <split size="1168"/>
             <dock id="" activePageId="Viewer.1">
                 <page id="Viewer.1"/>
             </dock>

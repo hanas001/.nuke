@@ -64,7 +64,7 @@ nuke.knobDefault('ContactSheet.height', 'root.height()*rows')
 
 ### add menu item to existing Nuke menu - i.e.:    nodeMenu = nuke.menu('Nuke').findItem('Edit/Node').addCommand('myMenuElement', 'myPythonScript.myFunction()', 'myHotkey')    # Modifiers: Shift= shift+, Alt/Option = alt+, Control/Command = ctrl+
 
-
+nuke.pluginAddPath('//omega/catsdogs/0_assets/_composelib')
 
 ### Create a custom menu - i.e.:
 # you need a gizmo to be placed in your '.nuke' folder structure

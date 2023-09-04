@@ -30,8 +30,10 @@ def contactSheetFunction() :
     x , y = 0 , 0
     for k in sq_list :
         out = sq_file + '/' + k + '/out'
+        print ( "out" , out )
         if os.path.exists ( out ) :
             maksV = out + '/' + max ( [ i for i in os.listdir ( out ) if os.path.isdir ( out + '/' + i ) ] )
+            print ("max version", maksV)
 
             r_file = ''
             fr_first = 1
@@ -98,6 +100,7 @@ def contactSheetFunction() :
     c_sh [ 'rows' ].setValue ( d )
     c_sh [ 'columns' ].setValue ( lines )
     c_sh [ 'roworder' ].setValue ( 'TopBottom' )
+    c_sh ['hide_input'].setValue ('True')
     c_sh.setXYpos ( dx + xx * 6 , dy + yy )
     for i in range ( len ( node_text ) ) :  # connect Text nodes to ContactSheet
         c_sh.setInput ( i , node_text [ i ] )

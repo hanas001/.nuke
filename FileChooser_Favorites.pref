@@ -3,5 +3,9 @@ add_favorite_dir Home Home home_dir ~/
 add_favorite_dir Root Root root_dir /
 add_favorite_dir Current Current "" [pwd]/
 add_favorite_dir Nuke Nuke icon16 "[file dir $program_name]/"
+add_favorite_dir -image //omega/catsdogs/3_post //omega/catsdogs/3_post "" //omega/catsdogs/3_post/
+add_favorite_dir -script //omega/catsdogs/3_post //omega/catsdogs/3_post "" //omega/catsdogs/3_post/
+add_favorite_dir -image -script -geo "Shotgun Current Project" "Shotgun Current Project" C:\Users\egolubenko\AppData\Roaming\Shotgun\bundle_cache\app_store\tk-nuke\v0.13.0\resources\sg_logo_80px.png \\omega\catsdogs //omega/catsdogs/
+add_favorite_dir -script comp_master comp_master "" //omega/catsdogs/dev/comp_master/
 
 # End of generated file.
